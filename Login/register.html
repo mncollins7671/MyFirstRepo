@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<link rel="stylesheet" href="registerstyle.css">
+
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="registerstyle.css">
 </head>
 
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg align-items-start" style="opacity: 0.9; padding: 0;">
+        <div class="container-fluid" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+
+            <a class="navbar-brand justify-content-start" href="#"
+                style="font-size: 3.5rem; font-weight: 550; color: rgb(255, 220, 168); text-shadow: 0 0 5px rgba(0.5, 0.5, 0.5, 0.5);">
+                <img src="../catLogo.png" class="d-inline-block align-text-center rounded-circle" alt="Cat Logo"
+                    width="100" height="100" style="box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);">
+                MangaPeeps
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#"
+                            style="font-size: 1.3rem; font-weight: 600; color: rgb(255, 220, 168); text-shadow: 0 0 5px rgba(0.5, 0.5, 0.5, 0.5);">Home</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
     <fieldset>
         <legend>Register</legend>
-        <label for="firstname" >First Name: 
+        <label for="firstname">First Name:
             <input type="text" id="firstname" name="firstname"><br><br>
         </label>
-        <label for="lastname">Last Name: 
+        <label for="lastname">Last Name:
             <input type="text" id="lastname" name="lastname"><br><br>
         </label>
-        <label for="email">Email: 
+        <label for="email">Email:
             <input type="email" id="email" name="email"><br><br>
         </label>
-        <label for="username">Username: 
+        <label for="username">Username:
             <input type="text" id="username" name="username"><br><br>
         </label>
-        <label for="password">Password: 
+        <label for="password">Password:
             <input type="password" id="password" name="password"><br><br>
         </label>
         <button type="registerbtn">Register</button>
