@@ -1,0 +1,48 @@
+nav div {
+    background-color: #8b321c;
+    font-family: 'comic sans ms', sans-serif, 'Arial';
+}
+
+#sideNav a:first-child {
+    align-content: center;
+}
+
+#sideOption {
+    border-top: 1px solid rgb(255, 180, 120);
+}
+
+#sideNav a {
+    color: rgb(255, 220, 168);
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;
+    
+}
+
+#sideNav a:hover {
+    color: rgb(255, 180, 120);
+}
+
+.dropdown-divider {
+    border-color: rgb(255, 220, 168);
+}
+
+#siteTrafficInfo .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px; 
+    padding: 20px; 
+    width: 20%; 
+    background-color: blanchedalmond; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    border-radius: 20px;
+}
+
+#siteTrafficInfo p {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: #8b321c;
+}

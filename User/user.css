@@ -1,4 +1,14 @@
 nav div {
-    background-color: #852a13;
-    font-family: 'Courier New', Courier, monospace;
+    background-color: #8b321c;
+    font-family: 'comic sans ms', sans-serif, 'Arial';
+}
+
+#userInfo li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#socialsCard li{
+    padding: 10px;
+    font-size: 20px;
 }
